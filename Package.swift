@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "CRRefresh",
             path: "CRRefresh/CRRefresh",
-            publicHeadersPath: "include",
+            publicHeadersPath: "include"
         )
     ]
 )
