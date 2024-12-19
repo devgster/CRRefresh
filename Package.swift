@@ -14,9 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "CRRefresh",
-            resources: [
-                .copy("Assets/")
-            ]
-        ),
+            path: "CRRefresh/CRRefresh",
+            publicHeadersPath: "include",
+        )
     ]
 )
